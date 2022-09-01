@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 
 code {
@@ -17,4 +18,48 @@ code {
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; 
+  display: flex;
+  height: 100vh ;
+  align-items: center;
+  justify-content: center;
+}
+
+.textstyle{
+font-size: 40px;
+padding: 0px;
+font-weight: 600;
+}
+
+.btn{
+  align-items: 70%;
+padding: 10px;
+font: size 20px;
+border-radius: 10px;
+font-weight: 600;
+background-color: cornflowerblue;
+position: relative;
+left: 28%;
+}
+
+.card{
+  text-align: center;
+ 
+ padding-bottom: 40px;
+  padding-top: 80px;
+  padding-left: 20px;
+  background-color: cornflowerblue;
+}
+.card-body{
+  border: 20px slateblue;
+}
+.card-title{
+  font-size: 25px;
+ 
+
+}
+.card-text{
+  font-size: 18px;
+}
+.card-img-top{
+  height: 100px;
 }
