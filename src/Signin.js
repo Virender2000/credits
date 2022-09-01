@@ -15,14 +15,17 @@ function SignIn(props) {
         props.onSubmit(idno);
     }
     return (
-        <div style={{ display: 'flex', justifyContent: 'center', height: '100vh', alignItems: 'center',}} className="background img-fluid">
+        <div  className="background img-fluid">
             <form onSubmit={handleSubmit}>
-            <input type="number" style={{ padding: '30px', fontSize: '20px', borderRadius: '3', fontWeight: '600'   }}
+                <p className='textstyle' >Enter intern id:</p>
+            <input type="number" style={{ padding: '20px', fontSize: '20px', borderRadius: '3', fontWeight: '600'   }}
             value={idno}
             onChange={(e)=>setIdno(e.target.value)}
              />
             <br />
-            <button type="submit" className="btn btn-primary btn-lg zoom" style={{ padding: '30px', fontSize: '20px', borderRadius: '3', fontWeight: '600', background:'cyan'   }}>check for credits</button>
+            <br />
+        
+            <button type="submit" className="btn btn-primary btn-lg zoom"   >check for credits</button>
             </form>
         </div>
     )
